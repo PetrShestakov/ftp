@@ -73,11 +73,11 @@ def download_and_search_ftp_files(ftp_host, ftp_user, ftp_passwd, ftp_folder, lo
 if __name__ == '__main__':
     # Параметры подключения к FTP-серверу
     ftp_host = 'ftp.zakupki.gov.ru'
-    ftp_user = 'free'
-    ftp_passwd = 'free'
+    ftp_user = ''
+    ftp_passwd = ''
 
     # Параметры скачивания и поиска
-    ftp_folder = '/fcs_regions/Sverdlovskaja_obl/contracts/currMonth'  # Путь к папке на FTP-сервере, где будут файлы
+    ftp_folder = '/fcs_regions/'  # Путь к папке на FTP-сервере, где будут файлы
     local_path = input("Введите путь к папке для сохранения файлов: ")  # Путь для сохранения и распаковки файлов
 
     # Получаем значение для поиска от пользователя
